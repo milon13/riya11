@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url(./img13/background1.png);
+    width: 100%;
+    float: left;
+    padding: 38px 51px;
+}
+/* main header */
+
+.main-header{
+    width: 100%;
+    float: left;
+    padding: 8px 20px;
+}
+.logo-part{
+    width: 50%;
+    float: left;
+}
+.logo-part img{
+    
+height: 52px;
+}
+.manu-part{
+    width: 50%;
+    float: left;
+    text-align: end;
+    position: relative;
+    font-size: 42px;
+    bottom: 11px;
+}
+.manu-part ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+
+}
+.manu-part ul li a{
+    text-decoration: none;
+    color: rgb(90, 19, 255);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+/* service section  */
+
+#service{
+    width: 100%;
+    float: left;
+    margin: auto;
+    
+
+}
+.container{
+    width: 100%;
+    float: left;
+    background-image: url(./img13/background1.png);
+}
+.service-box{
+    width: 33.33%;
+    float: left;
+
+}
+.service-box h1{
+
+font-size: 28px;
+
+color: white;
+
+position: relative;
+
+left: 61px;
+}
+.service-box h2{
+
+position: relative;
+
+color: white;
+
+left: 54px;
+
+font-size: 57px;
+
+top: 28px;
+}
+.service-box p{
+    
+position: relative;
+    
+color: white;
+    
+top: 94px;
+    
+left: 58px;
+}
+.service-box img{
+
+height: 481px;
+
+width: 544px;
+
+position: relative;
+
+left: 22px;
+
+bottom: 0px;
+}
+.service-box h3{
+
+position: relative;
+
+color: white;
+
+font-size: 38px;
+
+text-align: right;
+
+right: 106px;
+
+top: 45px;
+}
+
+.service-box h4{
+    
+position: relative;
+    
+color: white;
+    
+font-size: 12px;
+    
+top: 68px;
+    
+text-align: right;
+    
+right: 81px;
+}
+.service-box h5{
+    
+position: relative;
+    
+top: 156px;
+    
+left: 46px;
+    
+color: white;
+    
+font-size: 18px;
+}
+
+/* The part of Finish */
+#finish{
+    width: 100%;
+    float: left;
+    color: white;
+  background-image: url(./img13/background1.png);
+}
+.finish-box{
+    display: inline-block;
+}
+
+.icon{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.icon ul{
+    position: relative;
+    bottom: 78px;
+    right: -48px;
+    display: -webkit-inline-box;
+    list-style: none;
+}
+.icon ul li{
+
+margin: -7px 7px;
+}
+.icon ul li a{
+
+text-decoration: none;
+
+color: #ede5e5;
+
+position: relative;
+
+right: 80px;
+
+bottom: 5px;
+
+font-size: larger;
+}
+
